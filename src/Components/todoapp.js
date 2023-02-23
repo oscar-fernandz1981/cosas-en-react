@@ -6,7 +6,7 @@ import "./todoApp.css";
 
 export default function TodoApp(){
    
-    const[title, setTitle] = useState("Hola");
+    const[title, setTitle] = useState("");
     const[todos, setTodos] = useState([]);
     
     /*function handleClick(e){
